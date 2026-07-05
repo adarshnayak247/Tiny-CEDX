@@ -1,0 +1,60 @@
+# output_schema.yaml — Versioned canonical output schema for Legal Case Management
+# Version: 1.0.0
+#
+# Internal intake fields (owner, amount, category) are normalized from seed feeds.
+# Legal aliases (attorney, claim_amount, case_type) map via field_map.yaml.
+# Worker delivered_fields use legal terminology below.
+
+version: "1.0.0"
+
+canonical_record:
+  required:
+    - id
+    - owner
+    - deadline
+    - amount
+    - category
+    - version
+  optional:
+    - notes
+
+# Categories present in the CEDX seed feed (legal matter workflow stages)
+known_categories:
+  - ONBOARDING
+  - RENEWAL
+  - REVIEW
+  - REPORT
+  - INTAKE
+
+delivered_fields:
+  allowed:
+    - id
+    - attorney
+    - case_type
+    - normalized_claim_amount
+    - matter_classification
+    - priority_level
+    - recommended_strategy
+    - case_summary
+    - law_firm_brand
+    - pipeline_version
+    - generated_at
+  required:
+    - id
+    - attorney
+    - case_type
+    - normalized_claim_amount
+    - matter_classification
+    - priority_level
+    - recommended_strategy
+    - case_summary
+
+priority_levels:
+  - routine
+  - elevated
+  - urgent
+
+abstain_signal:
+  key: abstain
+  value: true
+  required_field: reason

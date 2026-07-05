@@ -1,0 +1,74 @@
+# field_map.yaml — Declarative field alias → canonical name mapping
+# Version: 1.0.0
+# Any field arriving under an alias is mapped to the canonical name and logged as SCHEMA_DRIFT (Class B).
+# Add new aliases here as they are discovered in production feeds.
+#
+# IMPORTANT: Canonical names are: owner, amount, category (internal)
+# Legal terminology (attorney, claim_amount, case_type) are ALIASES that map TO canonical
+
+version: "1.0.0"
+
+# canonical_name: [list of known aliases]
+# Legal industry aliases map to internal canonical field names
+mappings:
+  amount:
+    - value
+    - damages
+    - settlement_amount
+    - demand
+    - amt
+    - claim_amount          # Legal term maps to internal 'amount'
+    - claim_value
+    - compensation
+    - monetary_relief
+
+  deadline:
+    - due_date
+    - filing_date
+    - expiry
+    - expiration_date
+    - response_deadline
+    - hearing_date
+    - submission_date
+
+  owner:
+    - assigned_to
+    - counsel
+    - lawyer
+    - lead_attorney
+    - case_manager
+    - handler
+    - attorney              # Legal term maps to internal 'owner'
+
+  category:
+    - type
+    - matter_type
+    - case_type             # Legal term maps to internal 'category'
+    - case_category
+    - litigation_type
+    - proceeding_type
+
+  notes:
+    - comments
+    - description
+    - memo
+    - case_notes
+    - details
+    - summary
+
+  id:
+    - case_id
+    - ref
+    - reference
+    - matter_id
+    - docket_number
+    - file_number
+
+  version:
+    - ver
+    - revision
+    - rev
+
+# Fields that are completely unknown (not canonical, not an alias) are preserved
+# under their original name but logged as UNVERIFIED_ANOMALY if they cause
+# validation failure.
