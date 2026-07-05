@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-004",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-004"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-004",
+    "attorney": "d.kapoor",
+    "case_type": "REPORT",
+    "normalized_claim_amount": 6100.0,
+    "matter_classification": "Litigation Status Report",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard report protocols and timeline.",
+    "case_summary": "Legal analysis for d.kapoor's report matter. Claim amount $6,100.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:f0feb3d06751eaf8b01c6062c726605a0c608573bc0710b545822e1a6fcdcba4",
+  "delivered_fields_hash": "sha256:f0feb3d06751eaf8b01c6062c726605a0c608573bc0710b545822e1a6fcdcba4",
+  "ts": "2026-07-05T00:00:00Z"
+}

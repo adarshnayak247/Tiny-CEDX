@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-019",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-019"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-019",
+    "attorney": "s.haque",
+    "case_type": "ONBOARDING",
+    "normalized_claim_amount": 4850.0,
+    "matter_classification": "New Matter Intake",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard onboarding protocols and timeline.",
+    "case_summary": "Legal analysis for s.haque's onboarding matter. Claim amount $4,850.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:1d3d02e0c5ad344cc61d10f45feefc9582d795e7d546734ca039a9d2bf603917",
+  "delivered_fields_hash": "sha256:1d3d02e0c5ad344cc61d10f45feefc9582d795e7d546734ca039a9d2bf603917",
+  "ts": "2026-07-05T00:00:00Z"
+}

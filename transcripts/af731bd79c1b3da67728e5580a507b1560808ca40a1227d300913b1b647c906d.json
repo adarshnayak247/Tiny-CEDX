@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-007",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-007"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-007",
+    "attorney": "g.silva",
+    "case_type": "REVIEW",
+    "normalized_claim_amount": 4700.0,
+    "matter_classification": "Case Status Review",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard review protocols and timeline.",
+    "case_summary": "Legal analysis for g.silva's review matter. Claim amount $4,700.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:af731bd79c1b3da67728e5580a507b1560808ca40a1227d300913b1b647c906d",
+  "delivered_fields_hash": "sha256:af731bd79c1b3da67728e5580a507b1560808ca40a1227d300913b1b647c906d",
+  "ts": "2026-07-05T00:00:00Z"
+}

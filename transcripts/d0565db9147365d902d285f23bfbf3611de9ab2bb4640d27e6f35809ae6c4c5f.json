@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-016",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-016"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-016",
+    "attorney": "p.larsen",
+    "case_type": "RENEWAL",
+    "normalized_claim_amount": 4750.0,
+    "matter_classification": "Retainer Renewal Review",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard renewal protocols and timeline.",
+    "case_summary": "Legal analysis for p.larsen's renewal matter. Claim amount $4,750.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:d0565db9147365d902d285f23bfbf3611de9ab2bb4640d27e6f35809ae6c4c5f",
+  "delivered_fields_hash": "sha256:d0565db9147365d902d285f23bfbf3611de9ab2bb4640d27e6f35809ae6c4c5f",
+  "ts": "2026-07-05T00:00:00Z"
+}

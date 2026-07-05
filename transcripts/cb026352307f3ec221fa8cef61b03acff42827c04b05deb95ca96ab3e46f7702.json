@@ -1,0 +1,26 @@
+{
+  "agent": "Verifier",
+  "model": "gpt-4o-mini",
+  "prompt_version": "verifier-v1",
+  "record_id": "GOLD-009",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "..."
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "verdict": "pass",
+    "reason": "Legal analysis validated. Worker output properly grounded in case facts with no fabricated citations."
+  },
+  "response_hash": "sha256:cb026352307f3ec221fa8cef61b03acff42827c04b05deb95ca96ab3e46f7702",
+  "delivered_fields_hash": null,
+  "ts": "2026-07-05T00:00:00Z"
+}

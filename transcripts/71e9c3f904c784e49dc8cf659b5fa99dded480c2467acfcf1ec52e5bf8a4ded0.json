@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-020",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-020"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-020",
+    "attorney": "t.novak",
+    "case_type": "REPORT",
+    "normalized_claim_amount": 5250.0,
+    "matter_classification": "Litigation Status Report",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard report protocols and timeline.",
+    "case_summary": "Legal analysis for t.novak's report matter. Claim amount $5,250.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:71e9c3f904c784e49dc8cf659b5fa99dded480c2467acfcf1ec52e5bf8a4ded0",
+  "delivered_fields_hash": "sha256:71e9c3f904c784e49dc8cf659b5fa99dded480c2467acfcf1ec52e5bf8a4ded0",
+  "ts": "2026-07-05T00:00:00Z"
+}

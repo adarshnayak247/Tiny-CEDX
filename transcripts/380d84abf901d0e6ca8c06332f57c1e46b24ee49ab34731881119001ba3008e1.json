@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-006",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-006"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-006",
+    "attorney": "f.haddad",
+    "case_type": "RENEWAL",
+    "normalized_claim_amount": 5300.0,
+    "matter_classification": "Retainer Renewal Review",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard renewal protocols and timeline.",
+    "case_summary": "Legal analysis for f.haddad's renewal matter. Claim amount $5,300.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:380d84abf901d0e6ca8c06332f57c1e46b24ee49ab34731881119001ba3008e1",
+  "delivered_fields_hash": "sha256:380d84abf901d0e6ca8c06332f57c1e46b24ee49ab34731881119001ba3008e1",
+  "ts": "2026-07-05T00:00:00Z"
+}

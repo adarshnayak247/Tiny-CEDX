@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "GOLD-007",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: GOLD-007"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "GOLD-007",
+    "attorney": "g.larsen",
+    "case_type": "RENEWAL",
+    "normalized_claim_amount": 4750.0,
+    "matter_classification": "Retainer Renewal Review",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard renewal protocols and timeline.",
+    "case_summary": "Legal analysis for g.larsen's renewal matter. Claim amount $4,750.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:1c2a2ff002a752d6dcf628a5d845e407c6ccab6f7ea09c3535dc184f90f0987e",
+  "delivered_fields_hash": "sha256:1c2a2ff002a752d6dcf628a5d845e407c6ccab6f7ea09c3535dc184f90f0987e",
+  "ts": "2026-07-05T00:00:00Z"
+}

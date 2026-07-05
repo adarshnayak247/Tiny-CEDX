@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o",
+  "prompt_version": "worker-v1",
+  "record_id": "GOLD-009",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: GOLD-009"
+      }
+    ],
+    "model": "gpt-4o"
+  },
+  "response": {
+    "id": "GOLD-009",
+    "attorney": "i.rossi",
+    "case_type": "REVIEW",
+    "normalized_claim_amount": 35000.0,
+    "matter_classification": "Case Status Review",
+    "priority_level": "elevated",
+    "recommended_strategy": "Proceed with standard review protocols and timeline.",
+    "case_summary": "Legal analysis for i.rossi's review matter. Claim amount $35,000.00 falls within elevated priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:c9bf534b58c541e2ad655115055ddf09d56f11c945b40803d090c2554d9c3f0d",
+  "delivered_fields_hash": "sha256:c9bf534b58c541e2ad655115055ddf09d56f11c945b40803d090c2554d9c3f0d",
+  "ts": "2026-07-05T00:00:00Z"
+}

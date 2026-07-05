@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "REC-017",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: REC-017"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "REC-017",
+    "attorney": "q.abate",
+    "case_type": "REPORT",
+    "normalized_claim_amount": 4650.0,
+    "matter_classification": "Litigation Status Report",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard report protocols and timeline.",
+    "case_summary": "Legal analysis for q.abate's report matter. Claim amount $4,650.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:e897ef6b000e5ab76e35e10036f1a3d52a6bddac7e5fdc32c269bb6b1a00708a",
+  "delivered_fields_hash": "sha256:e897ef6b000e5ab76e35e10036f1a3d52a6bddac7e5fdc32c269bb6b1a00708a",
+  "ts": "2026-07-05T00:00:00Z"
+}

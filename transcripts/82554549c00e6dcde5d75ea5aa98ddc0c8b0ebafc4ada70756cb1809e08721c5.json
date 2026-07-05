@@ -1,0 +1,35 @@
+{
+  "agent": "Worker",
+  "model": "gpt-4o-mini",
+  "prompt_version": "worker-v1",
+  "record_id": "GOLD-008",
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "..."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this case: GOLD-008"
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  "response": {
+    "id": "GOLD-008",
+    "attorney": "h.iqbal",
+    "case_type": "REPORT",
+    "normalized_claim_amount": 5000.0,
+    "matter_classification": "Litigation Status Report",
+    "priority_level": "routine",
+    "recommended_strategy": "Proceed with standard report protocols and timeline.",
+    "case_summary": "Legal analysis for h.iqbal's report matter. Claim amount $5,000.00 falls within routine priority parameters.",
+    "law_firm_brand": "CEDX Legal Services - Case Management Division",
+    "pipeline_version": "1.0.0",
+    "generated_at": "2026-07-05T00:00:00Z"
+  },
+  "response_hash": "sha256:82554549c00e6dcde5d75ea5aa98ddc0c8b0ebafc4ada70756cb1809e08721c5",
+  "delivered_fields_hash": "sha256:82554549c00e6dcde5d75ea5aa98ddc0c8b0ebafc4ada70756cb1809e08721c5",
+  "ts": "2026-07-05T00:00:00Z"
+}
